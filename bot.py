@@ -24,7 +24,7 @@ bot = Client('pdisk bot',
 async def start(bot, message):
     await message.reply(
         f"**Hiya 👋{message.chat.first_name}!**\n\n"
-        "**A Simple PDisk Uploader Bot.\n\n➠ Send Me Any Direct Link, YouTube Link Or Video Link  I Will Upload To PDisk And Give Direct Link\n\nMade With❤BY @MyTestBotZ**")
+        "**A Simple PDisk Uploader Bot.\n\n➠ Send Me Any Direct Link, YouTube Link Or Video Link  I Will Upload To PDisk And Give Direct Link\n\nMade With❤BY @KOT_BOTS**")
         
 
 @bot.on_message(filters.text & filters.private)
@@ -144,7 +144,7 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """
 ━━━━━━━━━━━━━━━
-⦿ Made With♥️BY @OO7ROBot
+⦿ Made With♥️BY @KOT_BOTS
 ━━━━━━━━━━━━━━━
 ✪ »JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
