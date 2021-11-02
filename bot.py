@@ -146,7 +146,7 @@ async def addFooter(str):
 ━━━━━━━━━━━━━━━
 ⦿ Made With♥️BY @KOT_BOTS
 ━━━━━━━━━━━━━━━
-✪ »JOIN CHANNEL ➡️ t.me/""" + CHANNEL
+✪ »JOIN CHANNEL ➡️ t.me/KING_OF_THE_CARTOONS_CHANNEL"""+ CHANNEL
     return str + footer
 
 bot.run()
